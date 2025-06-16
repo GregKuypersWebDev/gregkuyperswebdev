@@ -177,6 +177,12 @@ a:focus {
 .tm-navbar.scroll .navbar-toggler-icon {
   color: #5e5d5d;
 }
+@media (max-width: 768px) {
+  .image-to-hide {
+    display: none;
+  }
+}
+
 
 /* Hero */
 
@@ -383,6 +389,12 @@ background-position: 0 0, 12.5px 0, 12.5px -12.5px, 0 12.5px;
   pointer-events: none;
 }
 
+@media (max-width: 768px) {
+  #image-to-hide {
+    display: none;
+  }
+}
+
 .grid figure figcaption,
 .grid figure figcaption > a {
   position: absolute;
@@ -496,7 +508,7 @@ figure.effect-honey:hover h3 i {
 
 #contact {
   color: white;
-  background-image: url(../img/header-img.webp);
+  background-image: url(../img/header-img_70.webp);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 850px;
