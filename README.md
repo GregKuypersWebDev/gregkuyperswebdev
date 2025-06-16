@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there 👋 This repo is for storing the Greg Kuypers Aluminum Inc Web page source code
 
 <!--
 **GregKuypersWebDev/gregkuyperswebdev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
