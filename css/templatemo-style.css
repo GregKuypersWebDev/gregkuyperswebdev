@@ -5,6 +5,18 @@ The Town
 https://templatemo.com/tm-525-the-town
 
 */
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0); /* Older browsers */
+  clip-path: inset(50%); /* Modern browsers */
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; /* Keeps content on a single line */
+}
 .con
 .glow {
  text-shadow: 1px 1px 2px black, 0 0 25px #007785, 0 0 5px #004a52
@@ -390,19 +402,19 @@ background-position: 0 0, 12.5px 0, 12.5px -12.5px, 0 12.5px;
   opacity: 0;
 }
 
-.grid figure h2 {
+.grid figure h3 {
   word-spacing: -0.15em;
   font-weight: 300;
 }
 
-.grid figure h2 span {
+.grid figure h3 span {
   font-weight: 800;
 }
 .box {
   margin: 8px;
   background-color: #0078851a;
 }
-.grid figure h2,
+.grid figure h3,
 .grid figure p {
   margin: 0;
 }
@@ -445,7 +457,7 @@ figure.effect-honey figcaption::before {
   transform: translate3d(0, 10px, 0);
 }
 
-figure.effect-honey h2 {
+figure.effect-honey h3 {
   position: absolute;
   font-size: large;
   bottom: 0;
@@ -457,7 +469,7 @@ figure.effect-honey h2 {
   transform: translate3d(0, -30px, 0);
 }
 
-figure.effect-honey h2 i {
+figure.effect-honey h3 i {
   font-style: normal;
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -467,14 +479,14 @@ figure.effect-honey h2 i {
 }
 
 figure.effect-honey figcaption::before,
-figure.effect-honey h2 {
+figure.effect-honey h3 {
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
 }
 
 figure.effect-honey:hover figcaption::before,
-figure.effect-honey:hover h2,
-figure.effect-honey:hover h2 i {
+figure.effect-honey:hover h3,
+figure.effect-honey:hover h3 i {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
