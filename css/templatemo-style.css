@@ -30,7 +30,12 @@ https://templatemo.com/tm-525-the-town
   font-weight: 1200;
   font-style: normal;
 }
-
+.center {
+    margin: auto;
+  width: 70%;
+  border: 3px solid green;
+  padding: 10px;
+}
 .black {
   color: #000000;
 }
