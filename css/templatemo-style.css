@@ -301,7 +301,7 @@ background-position: 0 0, 12.5px 0, 12.5px -12.5px, 0 12.5px;
 .tm-intro-text {
   font-size: 1.2rem;
   line-height: 1.4;
-  text-align: justify;
+  text-align: left;
   margin-right: 40px;
 }
 
